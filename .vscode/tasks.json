@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Phase 2 SQLite database tests",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"test",
+				"--no-pub",
+				"--reporter",
+				"expanded",
+				"test/database_test.dart"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
